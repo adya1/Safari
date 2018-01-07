@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apkglobal.safari.ImplicitIntent.Main3Activity"
+    android:orientation="vertical">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Call Us"
+    android:id="@+id/btn_call"
+    android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Us"
+        android:id="@+id/btn_email"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share App"
+        android:id="@+id/btn_share"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:id="@+id/btn_web"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call with runtime permission"
+        android:id="@+id/btn_callrun"
+        android:layout_marginTop="40dp"
+        />
+</LinearLayout>

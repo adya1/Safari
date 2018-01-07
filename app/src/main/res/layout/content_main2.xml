@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.apkglobal.safari.Main2Activity"
+    tools:showIn="@layout/activity_main2"
+    android:background="#efd73d">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/btn_email"
+        app:layout_widthPercent="50%"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShareApp"
+        android:id="@+id/btn_share"
+
+        android:layout_toRightOf="@id/btn_email"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:id="@+id/btn_website"
+        android:layout_below="@id/btn_share"/>
+
+
+</android.support.percent.PercentRelativeLayout>
